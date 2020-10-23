@@ -1,0 +1,106 @@
+References:
+Python : https://www.python.org/
+Visual studio code download: https://code.visualstudio.com/download
+concepts: https://www.javatpoint.com/python-data-types
+Examples: https://www.learnpython.org/     ( complete hello world, variables and types)
+
+Hacker Rank Practice: https://www.hackerrank.com/domains/python?filters%5Bsubdomains%5D%5B%5D=py-introduction&badge_type=python
+(Inroduction)
+Python versions: 2 vs 3
+
+
+Topics:
+Introduction:
+High level PL
+Dynamically typed
+
+English                 Python
+Letters/Alphabet        Tokens
+Words                   Keywords
+Sentences               Constructs
+Grammar                 Syntax/rules
+
+
+
+variables and types:
+indentation: 4 spaces
+strings: '' or "" or """
+Identifiers: group of both the letters and digits, but they have to begin with a letter or an underscore.
+Case sensitive
+Efficent memory management, by reusing the exsisting value in the memory.
+id() -> uniqiue id of the object
+
+
+Data Types:
+Interpreter infers the type from the assigned value.
+type() -> gives variable type
+
+Primitive:
+int ( no restrictions on the length )
+float ( accurate upto 15decimal points. )
+Complex numbers ( 1+2j )
+str
+Boolean
+
+Advanced:
+List ( heterogenous array [] )
+Tuple ( heterogenous array (), It is a read-only data structure as we can't modify the size and value of the items.)
+Dictonary ( d = {1:'Jimmy', 2:'Alex', 3:'john', 4:'mike'})
+Set (Set is the unordered collection. It is iterable, mutable, and has unique elements.
+In set, the order of the elements is undefined; it may return the changed sequence of the element. 
+The set is created by using a built-in function set(), or a sequence of elements is passed in the curly braces and
+separated by the comma. It can contain various types of values.)
+set1 = set()  
+or
+set2 = {'James', 2, 3,'Python'}  
+  
+#Printing Set value  
+print(set2)  
+  
+# Adding element to the set  
+  
+set2.add(10)  
+print(set2)  
+  
+#Removing element from the set  
+set2.remove(2)  
+print(set2)  
+
+output:
+{3, 'Python', 'James', 2}
+{'Python', 'James', 3, 2, 10}
+{'Python', 'James', 3, 10}
+
+
+
+
+Keywords
+Literals
+Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
